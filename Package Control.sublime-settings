@@ -1,0 +1,25 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"ApacheConf.tmLanguage",
+		"Case Conversion",
+		"CodeFormatter",
+		"Emmet",
+		"EncodingHelper",
+		"GitGutter",
+		"Markdown Preview",
+		"Package Control",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-jscs",
+		"SublimeLinter-jshint",
+		"SublimeLinter-php",
+		"SublimeLinter-xmllint",
+		"TrailingSpaces",
+		"TypoScript",
+		"Unicode Character Highlighter"
+	]
+}
