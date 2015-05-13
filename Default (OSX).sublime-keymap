@@ -1,0 +1,12 @@
+[
+	{ "keys": ["escape"], "command": "auto_complete", "context":
+		[
+			{ "key": "num_selections", "operator": "equal", "operand": 1 },
+			{ "key": "panel_visible", "operator": "equal", "operand": false },
+			{ "key": "overlay_visible", "operator": "equal", "operand": false },
+			{ "key": "auto_complete_visible", "operator": "equal", "operand": false }
+		]
+	},
+
+	{ "keys": ["super+ctrl+v"], "command": "paste_replace" }
+]

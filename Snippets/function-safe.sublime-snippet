@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[(function($1) {${0:$TM_SELECTED_TEXT}}());]]></content>
+	<tabTrigger>safe</tabTrigger>
+	<scope>source.js</scope>
+	<description>Safe Anonymous Function Execution</description>
+</snippet>
