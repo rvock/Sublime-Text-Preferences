@@ -3,7 +3,7 @@
 	"atomic_save": false,
 	"bold_folder_labels": true,
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/User/Monokai Bright (SL).tmTheme",
+	"color_scheme": "Packages/User/Monokai (SL).tmTheme",
 	"default_line_ending": "unix",
 	"draw_minimap_border": true,
 	"folder_exclude_patterns":
