@@ -30,5 +30,6 @@
 	"show_encoding": true,
 	"show_line_endings": true,
 	"show_tab_close_buttons": false,
-	"trailing_spaces_modified_lines_only": true
+	"trailing_spaces_modified_lines_only": true,
+	"typescript_plugin_tsc_version": "1.7.3"
 }

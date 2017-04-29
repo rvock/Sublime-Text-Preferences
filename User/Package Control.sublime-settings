@@ -1,4 +1,5 @@
 {
+	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
@@ -34,6 +35,7 @@
 		"SublimeLinter-contrib-scss-lint",
 		"SublimeLinter-contrib-tslint",
 		"SublimeLinter-php",
+		"SublimeLinter-phpcs",
 		"SublimeLinter-xmllint",
 		"Syntax Highlighting for Sass",
 		"TrailingSpaces",
