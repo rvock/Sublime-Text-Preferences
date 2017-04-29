@@ -1,0 +1,15 @@
+[
+	{ "keys": ["ctrl+left"], "command": "move_to", "args": {"to": "bol"} },
+	{ "keys": ["ctrl+right"], "command": "move_to", "args": {"to": "eol"} },
+	{ "keys": ["ctrl+shift+left"], "command": "move_to", "args": {"to": "bol", "extend": true} },
+	{ "keys": ["ctrl+shift+right"], "command": "move_to", "args": {"to": "eol", "extend": true} },
+
+	{ "keys": ["ctrl+up"], "command": "move_to", "args": {"to": "bof", "extend": false} },
+	{ "keys": ["ctrl+down"], "command": "move_to", "args": {"to": "eof", "extend": false} },
+	{ "keys": ["ctrl+shift+up"], "command": "move_to", "args": {"to": "bof", "extend": true} },
+	{ "keys": ["ctrl+shift+down"], "command": "move_to", "args": {"to": "eof", "extend": true} },
+
+	{ "keys": ["super+ctrl+v"], "command": "paste_from_history" },
+
+	{ "keys": ["ctrl+shift+r"], "command": "reveal_in_side_bar"}
+]
