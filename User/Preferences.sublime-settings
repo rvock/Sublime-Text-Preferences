@@ -1,6 +1,7 @@
 {
 	"always_show_minimap_viewport": true,
 	"atomic_save": false,
+	"auto_complete_cycle": true,
 	"bold_folder_labels": true,
 	"close_windows_when_empty": false,
 	"color_scheme": "Packages/User/Monokai (SL).tmTheme",
@@ -16,7 +17,7 @@
 		"node_modules",
 		".sass-cache"
 	],
-	"font_size": 15,
+	"font_size": 14,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,

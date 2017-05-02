@@ -11,6 +11,7 @@
 		"Case Conversion",
 		"Codec",
 		"CodeFormatter",
+		"EditorConfig",
 		"Emmet",
 		"EncodingHelper",
 		"Git",
