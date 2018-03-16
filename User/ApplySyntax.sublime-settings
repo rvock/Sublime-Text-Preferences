@@ -26,6 +26,12 @@
                 {"file_path": ".*(\\\\|/)ext_typoscript_(setup|constants)\\.txt$"},
                 {"file_name": ".*(\\\\|/)(fileadmin|typo3|TypoScript).*(\\\\|/)(setup|constants)\\.txt$"}
             ]
+        },
+        {
+            "syntax": "ApacheConf/ApacheConf",
+            "rules": [
+                {"file_path": ".*(\\\\|/)\\.htaccess\\.local$"}
+            ]
         }
     ]
 }
