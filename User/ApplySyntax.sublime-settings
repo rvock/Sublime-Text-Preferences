@@ -32,6 +32,12 @@
             "rules": [
                 {"file_path": ".*(\\\\|/)\\.htaccess\\.local$"}
             ]
+        },
+        {
+            "syntax": "ShellScript/Shell-Unix-Generic",
+            "rules": [
+                {"file_path": ".*(\\\\|/)\\.?profile(_4wdmedia|_home)?$"}
+            ]
         }
     ]
 }
