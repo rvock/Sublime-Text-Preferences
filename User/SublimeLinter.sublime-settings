@@ -7,12 +7,14 @@
 			"@disable": false,
 			"args":
 			[
-				"--parser", "Babel-ESLint"
+				"--parser", "/Users/admin/config/tools/node_modules/babel-eslint/"
 			],
 			"excludes":
 			[
 				"/Users/rvock/4wdmedia/projekte/ckeditor-dev/*",
 				"*/sysext/*",
+				"*/vendor/*",
+				"*/node_modules/*",
 				"*/typo3conf/ext/crawler/*",
 				"*/typo3conf/ext/gridelements/*",
 				"*/typo3conf/ext/powermail/*",
@@ -29,6 +31,8 @@
 			[
 				"/Users/rvock/4wdmedia/projekte/ckeditor-dev/*",
 				"*/sysext/*",
+				"*/vendor/*",
+				"*/node_modules/*",
 				"*/typo3conf/ext/crawler/*",
 				"*/typo3conf/ext/gridelements/*",
 				"*/typo3conf/ext/powermail/*",
@@ -51,31 +55,31 @@
 			"args":
 			[
 			],
-			"cmd": "/Users/admin/config/bin/php7",
+			"executable": "/Users/admin/config/bin/php7",
 			"excludes":
 			[
 			]
 		},
 		"phpcs":
 		{
-			"@disable": true,
+			"@disable": false,
 			"args":
 			[
 			],
 			"excludes":
 			[
 				"*/sysext/*",
+				"*/vendor/*",
 				"*/typo3conf/ext/crawler/*",
 				"*/typo3conf/ext/gridelements/*",
 				"*/typo3conf/ext/powermail/*",
-				"*/typo3conf/ext/realurl/*",
-				"*/vendor/*"
+				"*/typo3conf/ext/realurl/*"
 			],
-			"standard": "/Users/admin/config/php/phpcodesniffer/ForwardMedia/"
+			"standard": "ForwardMedia"
 		},
 		"scss":
 		{
-			"@disable": true,
+			"@disable": false,
 			"args":
 			[
 			],
