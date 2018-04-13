@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippet>
+	<content><![CDATA[{svg src='EXT:vierwd_$1/Resources/Public/static/img/$2.svg'}$0]]></content>
+	<tabTrigger>svg</tabTrigger>
+	<scope>text.html.smarty,source.smarty</scope>
+	<description>TYPO3 svg</description>
+</snippet>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippet>
+	<content><![CDATA[@php debug4wd($1); @endphp$0]]></content>
+	<tabTrigger>s</tabTrigger>
+	<scope>text.blade</scope>
+	<description>debug4wd();</description>
+</snippet>

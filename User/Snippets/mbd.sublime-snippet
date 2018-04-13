@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippet>
+	<content><![CDATA[@include media-breakpoint-down('${1:md}') {
+	$0
+}]]></content>
+	<tabTrigger>mbd</tabTrigger>
+	<scope>source.scss</scope>
+	<description>@media-breakpoint-down</description>
+</snippet>

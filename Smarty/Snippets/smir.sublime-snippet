@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippet>
+	<content><![CDATA[
+${SMARTY_LDELIM:\{}debug4wd(${1:variable})${SMARTY_RDELIM:\}}
+]]></content>
+	<tabTrigger>s</tabTrigger>
+	<scope>text.html.smarty,source.smarty</scope>
+	<description>debug4wd();</description>
+</snippet>

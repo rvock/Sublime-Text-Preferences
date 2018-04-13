@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippet>
+	<content><![CDATA[@media (max-width: ${1:\$screen-xs-max}) {
+	$0
+}]]></content>
+	<tabTrigger>@m</tabTrigger>
+	<scope>source.scss</scope>
+	<description>@media</description>
+</snippet>

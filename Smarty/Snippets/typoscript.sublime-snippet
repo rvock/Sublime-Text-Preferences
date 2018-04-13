@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${SMARTY_LDELIM:\{}typoscript${1: assign='${2:variable}'}${SMARTY_RDELIM:\}}
+$0
+${SMARTY_LDELIM:\{}/typoscript${SMARTY_RDELIM:\}}
+]]></content>
+	<tabTrigger>typoscript</tabTrigger>
+	<scope>text.html.smarty,source.smarty</scope>
+</snippet>
