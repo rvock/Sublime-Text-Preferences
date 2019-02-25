@@ -1,5 +1,6 @@
 // SublimeLinter Settings - User
 {
+	"debug": false,
 	"linters":
 	{
 		"eslint":
@@ -9,6 +10,10 @@
 			[
 				"--parser", "/Users/admin/config/tools/node_modules/babel-eslint/"
 			],
+			"env": {
+				"PATH": "/Users/rvock/bin:/Users/rvock/.composer/vendor/bin:/Users/admin/config/tools/vendor/bin:/Users/admin/config/bin:/Users/admin/config/tools/node_modules/.bin:/usr/local/bin:/usr/bin"
+			},
+			"executable": "/Users/admin/config/tools/node_modules/.bin/eslint",
 			"excludes":
 			[
 				"/Users/rvock/4wdmedia/projekte/ckeditor-dev/*",
@@ -16,6 +21,7 @@
 				"*/vendor/*",
 				"*/node_modules/*",
 				"*/typo3conf/ext/crawler/*",
+				"*/typo3conf/ext/extension_builder/*",
 				"*/typo3conf/ext/gridelements/*",
 				"*/typo3conf/ext/powermail/*",
 				"*/typo3conf/ext/realurl/*"
@@ -33,20 +39,11 @@
 				"*/sysext/*",
 				"*/vendor/*",
 				"*/node_modules/*",
-				"*/typo3conf/ext/crawler/*",
+				"*/typo3conf/ext*",
+				"*/typo3conf/ext/extension_builder/*",
 				"*/typo3conf/ext/gridelements/*",
 				"*/typo3conf/ext/powermail/*",
 				"*/typo3conf/ext/realurl/*"
-			]
-		},
-		"jshint":
-		{
-			"@disable": false,
-			"args":
-			[
-			],
-			"excludes":
-			[
 			]
 		},
 		"php":
@@ -55,9 +52,10 @@
 			"args":
 			[
 			],
-			"executable": "/Users/admin/config/bin/php7",
+			"executable": "/Users/admin/config/bin/php71",
 			"excludes":
 			[
+				"*.blade.php"
 			]
 		},
 		"phpcs":
@@ -65,17 +63,25 @@
 			"@disable": false,
 			"args":
 			[
+				"-s",
+				"--standard=ForwardMedia"
 			],
+			"executable": "/Users/admin/config/bin/phpcs",
 			"excludes":
 			[
 				"*/sysext/*",
 				"*/vendor/*",
-				"*/typo3conf/ext/crawler/*",
+				"*/wp-*",
+				"*/typo3conf/ext/c*",
+				"*/typo3conf/ext/dadi_*",
+				"*/typo3conf/ext/nf_ladadi_form/*",
+				"*/typo3conf/ext/extension_builder/*",
 				"*/typo3conf/ext/gridelements/*",
 				"*/typo3conf/ext/powermail/*",
-				"*/typo3conf/ext/realurl/*"
-			],
-			"standard": "ForwardMedia"
+				"*/typo3conf/ext/realurl/*",
+				"*/typo3conf/ext/rlmp_tmplselector/*",
+				"*.blade.php"
+			]
 		},
 		"scss":
 		{
@@ -95,6 +101,9 @@
 			"args":
 			[
 			],
+			"env": {
+				"PATH": "/Users/rvock/bin:/Users/rvock/.composer/vendor/bin:/Users/admin/config/tools/vendor/bin:/Users/admin/config/bin:/Users/admin/config/tools/node_modules/.bin:/usr/local/bin:/usr/bin"
+			},
 			"excludes":
 			[
 			]
@@ -119,5 +128,20 @@
 			[
 			]
 		}
+	},
+	"paths": {
+		"osx": [
+			"/Users/rvock/bin",
+			"/Users/rvock/.composer/vendor/bin",
+			"/Users/admin/config/tools/vendor/bin",
+			"/Users/admin/config/bin",
+			"/Users/admin/config/tools/node_modules/.bin",
+			"/usr/local/bin",
+			"/usr/bin",
+			"/bin",
+			"/usr/sbin",
+			"/sbin",
+			"/usr/local/rvm/bin"
+		]
 	}
 }

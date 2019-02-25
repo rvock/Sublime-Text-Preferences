@@ -18,7 +18,9 @@ class PasteReplaceCommand(sublime_plugin.TextCommand):
 			('pageY', 'pageX'),
 			('.y', '.x'),
 			('first-child', 'last-child'),
-			('last-child', 'first-child')
+			('last-child', 'first-child'),
+			('latitude', 'longitude'),
+			('longitude', 'latitude')
 		]
 
 		replace = []

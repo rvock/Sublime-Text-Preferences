@@ -38,6 +38,12 @@
             "rules": [
                 {"file_path": ".*(\\\\|/)\\.?profile(_4wdmedia|_home)?$"}
             ]
+        },
+        {
+            "syntax": "EditorConfig/INI",
+            "rules": [
+                {"file_path": ".*(\\\\|/)\\.env(\\.dist)?$"}
+            ]
         }
     ]
 }

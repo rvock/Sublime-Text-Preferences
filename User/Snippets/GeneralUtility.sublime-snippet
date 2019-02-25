@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippet>
+	<content><![CDATA[use TYPO3\CMS\Core\Utility\GeneralUtility;$0]]></content>
+	<tabTrigger>gu</tabTrigger>
+	<scope>source.php</scope>
+	<description>GeneralUtility</description>
+</snippet>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippet>
+	<content><![CDATA[\TYPO3\CMS\Core\Utility\GeneralUtility::$0]]></content>
+	<tabTrigger>gu</tabTrigger>
+	<scope>text.html.smarty,source.smarty</scope>
+	<description>GeneralUtility</description>
+</snippet>
