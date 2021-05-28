@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\PHPStan\dumpType($1);$0]]></content>
+	<tabTrigger>phpstanDumpType</tabTrigger>
+	<scope>source.php</scope>
+	<description>Dump Type</description>
+</snippet>

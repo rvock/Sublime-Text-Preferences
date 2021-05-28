@@ -3,5 +3,5 @@
 ${SMARTY_LDELIM:\{}include '${1:./File.tpl}'${2: scope='${3:global|root|parent}'}${SMARTY_RDELIM:\}}
 ]]></content>
 	<tabTrigger>include</tabTrigger>
-	<scope>text.html.smarty,source.smarty</scope>
+	<scope>text.html.smarty</scope>
 </snippet>

@@ -10,5 +10,41 @@
 
 	{ "keys": ["super+ctrl+v"], "command": "paste_replace" },
 
-	{ "keys": ["command+shift+r"], "command": "reveal_in_side_bar"}
+	{ "keys": ["command+shift+r"], "command": "reveal_in_side_bar"},
+
+	{ "keys": ["ctrl+e"], "command": "emmet_expand_abbreviation" },
+	{
+		"keys": ["ctrl+up"],
+		"command": "emmet_increment_number",
+		"args": { "delta": 0.1 }
+	},
+	{
+		"keys": ["alt+up"],
+		"command": "emmet_increment_number",
+		"args": { "delta": 1 }
+	},
+	{
+		"keys": ["alt+super+up"],
+		"command": "emmet_increment_number",
+		"args": { "delta": 10 }
+	},
+	{
+		"keys": ["ctrl+down"],
+		"command": "emmet_increment_number",
+		"args": { "delta": -0.1 }
+	},
+	{
+		"keys": ["alt+down"],
+		"command": "emmet_increment_number",
+		"args": { "delta": -1 }
+	},
+	{
+		"keys": ["alt+super+down"],
+		"command": "emmet_increment_number",
+		"args": { "delta": -10 }
+	},
+	{
+		"keys": ["super+shift+y"],
+		"command": "emmet_evaluate_math"
+	}
 ]

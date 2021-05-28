@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippet>
+	<content><![CDATA[@TYPO3\CMS\Extbase\Annotation\Validate]]></content>
+	<tabTrigger>@validate</tabTrigger>
+	<scope>source.php</scope>
+	<description>@validate</description>
+</snippet>

@@ -5,5 +5,5 @@ $0
 ${SMARTY_LDELIM:\{}/typoscript${SMARTY_RDELIM:\}}
 ]]></content>
 	<tabTrigger>typoscript</tabTrigger>
-	<scope>text.html.smarty,source.smarty</scope>
+	<scope>text.html.smarty</scope>
 </snippet>

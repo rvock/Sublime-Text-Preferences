@@ -4,6 +4,6 @@
 ${SMARTY_LDELIM:\{}debug4wd(${1:variable})${SMARTY_RDELIM:\}}
 ]]></content>
 	<tabTrigger>s</tabTrigger>
-	<scope>text.html.smarty,source.smarty</scope>
+	<scope>text.html.smarty</scope>
 	<description>debug4wd();</description>
 </snippet>

@@ -3,5 +3,5 @@
 ${SMARTY_LDELIM:\{}translate key='${1:variable}'${SMARTY_RDELIM:\}}
 ]]></content>
 	<tabTrigger>translate</tabTrigger>
-	<scope>text.html.smarty,source.smarty</scope>
+	<scope>text.html.smarty</scope>
 </snippet>

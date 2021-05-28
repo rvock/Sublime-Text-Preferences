@@ -5,5 +5,5 @@ ${SMARTY_LDELIM:\{}foreach \$${1:collection} as \$${2:key}${3: => \$${4:item}}${
 ${SMARTY_LDELIM:\{}/foreach${SMARTY_RDELIM:\}}
 ]]></content>
 	<tabTrigger>foreach</tabTrigger>
-	<scope>text.html.smarty,source.smarty</scope>
+	<scope>text.html.smarty</scope>
 </snippet>

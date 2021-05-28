@@ -3,5 +3,5 @@
 	<content><![CDATA[use TYPO3\CMS\Core\Utility\GeneralUtility;$0]]></content>
 	<tabTrigger>gu</tabTrigger>
 	<scope>source.php</scope>
-	<description>GeneralUtility</description>
+	<description>use GeneralUtility</description>
 </snippet>

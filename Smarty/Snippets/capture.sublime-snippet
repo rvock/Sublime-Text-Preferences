@@ -5,5 +5,5 @@ ${SMARTY_LDELIM:\{}capture ${2:assign='${1:variable}'}${SMARTY_RDELIM:\}}
 ${SMARTY_LDELIM:\{}/capture${SMARTY_RDELIM:\}}
 ]]></content>
 	<tabTrigger>capture</tabTrigger>
-	<scope>text.html.smarty,source.smarty</scope>
+	<scope>text.html.smarty</scope>
 </snippet>

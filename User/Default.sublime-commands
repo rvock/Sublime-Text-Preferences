@@ -1,0 +1,4 @@
+[
+	{"caption": "SVG: Transform ViewBox", "command": "set_view_box" },
+	{"caption": "PHP: Set Namespace", "command": "set_namespace" },
+]

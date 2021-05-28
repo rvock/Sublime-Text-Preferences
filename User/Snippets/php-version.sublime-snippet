@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippet>
+	<content><![CDATA[AddHandler "proxy:fcgi://127.0.0.1:90${1:56}" .php$0]]></content>
+	<tabTrigger>php</tabTrigger>
+	<scope>source.apacheconf</scope>
+	<description>PHP Version</description>
+</snippet>

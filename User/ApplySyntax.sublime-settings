@@ -17,8 +17,21 @@
     // (true|false|"verbose")
     "debug": true,
 
+    "default_syntaxes": [
+        {
+            "syntax": "TypoScript/TypoScript",
+            "extensions": ["typoscript", "tsconfig"]
+        }
+    ],
+
     // Put your custom syntax rules here:
     "syntaxes": [
+        {
+            "syntax": "ShellScript/Bash",
+            "rules": [
+                {"file_path": "/Users/admin/config/etc/bash/connect"}
+            ]
+        },
         {
             "syntax": "TypoScript/TypoScript",
             "rules": [
