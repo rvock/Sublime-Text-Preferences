@@ -24,26 +24,9 @@
 				"*/typo3conf/ext/extension_builder/*",
 				"*/typo3conf/ext/gridelements/*",
 				"*/typo3conf/ext/powermail/*",
-				"*/typo3conf/ext/realurl/*"
-			]
-		},
-		"jscs":
-		{
-			"@disable": false,
-			"args":
-			[
-			],
-			"excludes":
-			[
-				"/Users/rvock/4wdmedia/projekte/ckeditor-dev/*",
-				"*/sysext/*",
-				"*/vendor/*",
-				"*/node_modules/*",
-				"*/typo3conf/ext*",
-				"*/typo3conf/ext/extension_builder/*",
-				"*/typo3conf/ext/gridelements/*",
-				"*/typo3conf/ext/powermail/*",
-				"*/typo3conf/ext/realurl/*"
+				"*/typo3conf/ext/realurl/*",
+				"*/typo3conf/ext/rte_ck*",
+				"*/typo3conf/ext/w*"
 			]
 		},
 		"php":
@@ -63,9 +46,9 @@
 			"@disable": false,
 			"args":
 			[
-				"-s",
-				"--standard=ForwardMedia"
+				"-s"
 			],
+			"working_dir": "${folder:$file_path}",
 			"executable": "/Users/admin/config/bin/phpcs",
 			"excludes":
 			[
@@ -74,26 +57,22 @@
 				"*/wp-*",
 				"*/typo3conf/ext/c*",
 				"*/typo3conf/ext/dadi_*",
-				"*/typo3conf/ext/nf_ladadi_form/*",
+				"*/typo3conf/ext/direct_mail*",
 				"*/typo3conf/ext/extension_builder/*",
+				"*/typo3conf/ext/formhandler*",
+				"*/typo3conf/ext/fridafrankfurt/*",
 				"*/typo3conf/ext/gridelements/*",
+				"*/typo3conf/ext/in2institutionen/*",
+				"*/typo3conf/ext/nf_ladadi_form/*",
 				"*/typo3conf/ext/powermail/*",
 				"*/typo3conf/ext/realurl/*",
 				"*/typo3conf/ext/rlmp_tmplselector/*",
+				"*/typo3conf/ext/rte_*",
+				"*/typo3conf/ext/sf_*",
+				"*/typo3conf/ext/sr_*",
+				"*/typo3conf/ext/w*",
 				"*.blade.php"
 			]
-		},
-		"scss":
-		{
-			"@disable": false,
-			"args":
-			[
-			],
-			"exclude-linter": "",
-			"excludes":
-			[
-			],
-			"include-linter": ""
 		},
 		"stylelint":
 		{

@@ -23,7 +23,13 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"Vintage"
+		"JavaScriptNext - ES6 Syntax",
+		"JSCS-Formatter",
+		"Laravel Blade Highlighter",
+		"LESS",
+		"PHP-Twig",
+		"SublimeCodeIntel",
+		"Vintage",
 	],
 	"line_padding_bottom": 2,
 	"line_padding_top": 2,
@@ -31,6 +37,7 @@
 	"show_encoding": true,
 	"show_line_endings": true,
 	"show_tab_close_buttons": false,
+	"theme": "Default.sublime-theme",
 	"trailing_spaces_modified_lines_only": true,
-	"typescript_plugin_tsc_version": "1.7.3"
+	"typescript_plugin_tsc_version": "1.7.3",
 }
